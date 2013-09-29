@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Fpor Processing</title>
+		<title> Form Processing</title>
 	</head>
 	<body>
 		<form method='POST' action ='demo.php'>
@@ -15,7 +15,7 @@
 			<input type='submit'>
 		</form>
 		<pre>
-			</php
+			<?php
 			print_r($_POST);
 			?>
 		</pre>
